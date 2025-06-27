@@ -20,7 +20,7 @@ A clean, modern, and responsive To-Do List web application built with **HTML**, 
 
 ## 📸 Preview
 
-![screenshot](https://via.placeholder.com/800x400?text=To-Do+List+App+Preview)
+![screenshot](https://github.com/Pavan755/To-Do_List/blob/main/Screenshot%20of%20To-Do%20list.png)
 
 ---
 
