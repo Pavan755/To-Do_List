@@ -1,8 +1,7 @@
-# To-Do_List
-"If you spend too much time thinking about a thing, you’ll never get it done."
-                                                                          by Bruce Lee
-
 # 📝 To-Do List Web App
+
+> “If you spend too much time thinking about a thing, you’ll never get it done.”
+> — *Bruce Lee*
 
 A clean, modern, and responsive To-Do List web application built with **HTML**, **CSS**, and **JavaScript**. This project helps users plan, manage, and keep track of their daily tasks, with features like editing, checking off completed items, and deleting all entries—while persisting data using `localStorage`.
 
@@ -83,4 +82,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🌟 Show Your Support
 
 If you like this project, consider giving it a ⭐️ and sharing it with others!
-
