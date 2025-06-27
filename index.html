@@ -1,0 +1,67 @@
+<!DOCTYPE html><!--More Actions-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js" defer></script>
+  <title>To-do list</title>
+  <link rel="icon" type="image/x-icon" href="check-list favicon.ico">
+
+</head>
+
+<body>
+  <section class="todo">
+    <h2>To-do list</h2>
+    <div class="input">
+      <input type="text" class="input-field" id="todoInput" placeholder="Add a new to-do" />
+      <button class="btn">Add</button>
+    </div>
+    <ul class="scroll">
+      <li id="todoList"></li>
+    </ul>
+    <div>
+      <hr class="counter" />
+      <div class="counter-container">
+        <p><span id="todoCount">0</span> items total</p>
+        <button id="deleteButton">Delete All</button>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+
+  <!-- Footer -->
+  <section class="footer-section">
+    <footer class="footer">
+      <div class="footer-container">
+        <!--<h3>PAVAN</h3>-->
+        <p>"Plan your work and work your plan" </p>
+        <div class="social-icons">
+          <!--<a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/bandaru-pavan-kumar-676898250/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>-->
+        </div>
+        <p class="copyright">© 2025 PavanKumarB. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </section>
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal().reveal('.hero-left', { origin: 'left', distance: '50px', duration: 1000, delay: 300 });
+    ScrollReveal().reveal('.hero-right', { origin: 'right', distance: '50px', duration: 1000, delay: 500 });
+    ScrollReveal().reveal('.navbar', { origin: 'top', distance: '20px', duration: 800, delay: 200 });
+    ScrollReveal().reveal('.about-img', { origin: 'left', distance: '50px', duration: 1000, delay: 200 });
+    ScrollReveal().reveal('.about-content', { origin: 'right', distance: '50px', duration: 1000, delay: 300 });
+  </script>
+</body>
+
+</html>
